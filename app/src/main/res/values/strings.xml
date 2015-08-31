@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Charge Up</string>
+    <string name="login_label">Welcome to ChargeUp!</string>
+    <string name="username">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="username_hint">email</string>
+    <string name="register">Register?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+</resources>
