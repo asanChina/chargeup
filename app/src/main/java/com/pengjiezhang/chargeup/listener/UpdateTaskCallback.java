@@ -6,5 +6,5 @@ package com.pengjiezhang.chargeup.listener;
  * to initiate "update task" should implements this interface
  */
 public interface UpdateTaskCallback {
-    void updateTaskFinished(boolean successful);
+    void onUpdateTaskFinished(boolean exceptionHappended, boolean successful);
 }

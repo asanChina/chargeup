@@ -6,5 +6,5 @@ package com.pengjiezhang.chargeup.listener;
  * to initiate "logout task" should implements this interface
  */
 public interface LogoutTaskCallback {
-    void logoutTaskFinished(boolean successful);
+    void onLogoutTaskFinished(boolean exceptionHappened, boolean successful);
 }

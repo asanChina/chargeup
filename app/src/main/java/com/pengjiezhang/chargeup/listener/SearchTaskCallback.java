@@ -8,5 +8,5 @@ import org.json.JSONObject;
  * to initiate "search task" should implements this interface
  */
 public interface SearchTaskCallback {
-    void searchTaskFinished(boolean successful, JSONObject jsonObject);
+    void onSearchTaskFinished(boolean exceptionHappened, boolean successful, JSONObject jsonObject);
 }

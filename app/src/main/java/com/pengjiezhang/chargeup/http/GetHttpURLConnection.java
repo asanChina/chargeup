@@ -16,8 +16,8 @@ import java.net.URL;
  */
 public class GetHttpURLConnection {
 
-    public String execute(String str) throws MalformedURLException{
-        URL url = new URL(str);
+    public String execute(String urlString) throws MalformedURLException{
+        URL url = new URL(urlString);
         HttpURLConnection urlConnection = null;
         BufferedReader in = null;
         try {

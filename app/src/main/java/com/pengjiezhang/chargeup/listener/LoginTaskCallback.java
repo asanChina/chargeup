@@ -6,5 +6,5 @@ package com.pengjiezhang.chargeup.listener;
  * to initiate "login task" should implements this interface
  */
 public interface LoginTaskCallback {
-    void loginTaskFinished(boolean successful);
+    void onLoginTaskFinished(boolean exceptionHappened, String result);
 }

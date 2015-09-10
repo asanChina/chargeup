@@ -17,8 +17,8 @@ import java.net.URL;
  * This class use "POST" method to talk with the server, the data posted is JSONObject
  */
 public class PostHttpURLConnection {
-    public String execute(String str, JSONObject jsonObject) throws MalformedURLException {
-        URL url = new URL(str);
+    public static String execute(String urlString, JSONObject jsonObject) throws MalformedURLException {
+        URL url = new URL(urlString);
         HttpURLConnection urlConnection = null;
         BufferedReader in = null;
         try {

@@ -6,6 +6,18 @@
     <string name="username_hint">email</string>
     <string name="register">Register?</string>
     <string name="forgot_password">Forgot password?</string>
-    <string name="login">Login</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
     <string name="cancel">Cancel</string>
+    <string name="status">Status:</string>
+    <string name="logged_out">Logged Out</string>
+    <string name="email">Email:</string>
+
+    <string name="user_profile">User Profile</string>
+    <string name="edit">Edit</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="device_info">Device Info</string>
+    <string name="device_name">Device Name:</string>
+    <string name="operating_system">Operating System:</string>
 </resources>
